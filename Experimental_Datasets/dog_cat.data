@@ -1,5 +1,0 @@
-classes = 2
-train = Experimental_Datasets/train.txt
-valid = Experimental_Datasets/test.txt
-names = Experimental_Datasets/classes.names
-backup = backup

@@ -1,8 +1,0 @@
-classes= 80
-train  = coco/train5k.txt
-valid  = coco/val2.5k.txt
-#valid = data/coco_val_5k.list
-names = cfg/coco.names
-backup = backup
-eval=coco
-
