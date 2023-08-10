@@ -1,5 +1,8 @@
 # Final-Project-Code
 
+**Base Code Comes from https://github.com/AlexeyAB/darknet.git**
+
+
 REQUIREMENTS:
 
 The current configuration of the makeFile requires GPU, OPENCV.
