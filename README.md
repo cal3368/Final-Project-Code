@@ -17,10 +17,13 @@ INSTALLATION:
 Clone the entirety of the repository.
 Download the MS COCO datasets into the coco folder using the following link:
 https://drive.google.com/drive/folders/13xVe6dvLqmGY2HLM2VBw48kDwyJh-d2E?usp=sharing
-There are separate folders for training and testing images
+There are separate folders for training and testing images but leave in the larger folder "images"
+e.g coco/images/train5k and coco/images/val2.5k
+
 
 Download the custom dataset into the Experimental_Datasets folder using the link: https://drive.google.com/drive/folders/1D0LeHkbc7hLLeijwjFYwn72ZMleeswoJ?usp=sharing
 For the custom dataset only one folder is necessary (it has training and testing images along with their labels)
+e.g. Experimental_Datasets/dog_cat
 
 RUNNING:
 
