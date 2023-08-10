@@ -21,7 +21,7 @@ For the custom dataset only one folder is necessary (it has training and testing
 
 RUNNING:
 
-Navigate to the this Final-Project-Code directory
+Navigate to the Final-Project-Code directory
 
 Run: 
 
@@ -31,37 +31,38 @@ There will be warnings, but it should finish running
 
 ---------------------------------------------------------------------------------------------------------------
 
-To run the code for the original learning rate on the MS COCO dataset run the command:
+**To run the code for the original learning rate on the MS COCO dataset run the command:**
 
 ./darknet detector train cfg/coco.data cfg/yolov4-tiny.cfg yolov4-tiny.conv.29 -dont_show -map
 
-To run the code for the higher learning rate on the MS COCO dataset run the command:
+**To run the code for the higher learning rate on the MS COCO dataset run the command:**
 
 ./darknet detector train cfg/coco.data cfg/yolov4-tiny_higherLR.cfg yolov4-tiny.conv.29 -dont_show -map
 
-To run the code for the lower learning rate on the MS COCO dataset run the command:
+**To run the code for the lower learning rate on the MS COCO dataset run the command:**
 
 ./darknet detector train cfg/coco.data cfg/yolov4-tiny_lowerLR.cfg yolov4-tiny.conv.29 -dont_show -map
 
 ---------------------------------------------------------------------------------------------------------------
 
-To run the code for the original learning rate on the custom dataset run the command:
+**To run the code for the original learning rate on the custom dataset run the command:**
 
 ./darknet detector train Experimental_Datasets/dog_cat.data cfg/yolov4-tiny_dog_cat.cfg yolov4-tiny.conv.29 -dont_show -map
 
-To run the code for the higher learning rate on the custom dataset run the command:
+**To run the code for the higher learning rate on the custom dataset run the command:**
 
 ./darknet detector train Experimental_Datasets/dog_cat.data cfg/yolov4-tiny_dog_cat_higherLR.cfg yolov4-tiny.conv.29 -dont_show -map
 
-To run the code for the lower learning rate on the custom dataset run the command:
+**To run the code for the lower learning rate on the custom dataset run the command:**
 
 ./darknet detector train Experimental_Datasets/dog_cat.data cfg/yolov4-tiny_dog_cat_lowerLR.cfg yolov4-tiny.conv.29 -dont_show -map
 
-If you do not wish to produce the mAP curve remove “-map”
+**If you do not wish to produce the mAP curve remove “-map”**
+**Possible are errors if the image directories are not in the locations described in the installation section**
 
 --------------------------------------------------------------------------------------------------------------
 
-To detect objects in an image: 
+**To detect objects in an image:** 
 
 Decide which weights file you wish to use from the backup folder. (Weight files are included from our training but will update as you train)
 
@@ -72,7 +73,7 @@ Run the command:
 ./darknet detector test ".data file for dataset" "detect version of cfg file associated with dataset and learning rate" 
 "weight file" "image"
 
-A threshold for classification can be set using the flag -thresh 
+**A threshold for classification can be set using the flag -thresh** 
 
 An example is shown below:
 
