@@ -23,6 +23,8 @@ Run:
 
 make
 
+There will be warnings, but it should finish running
+
 ---------------------------------------------------------------------------------------------------------------
 
 To run the code for the original learning rate on the MS COCO dataset run the command:
