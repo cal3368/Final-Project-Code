@@ -12,8 +12,12 @@ To change set:
 INSTALLATION:
 
 Clone the entirety of the repository.
-Download the MS COCO datasets into the coco folder
-Download the custom dataset into the Experimental_Datasets folder (Some of the dataset is included but was capped at 1000 by github)
+Download the MS COCO datasets into the coco folder using the following link:
+https://drive.google.com/drive/folders/13xVe6dvLqmGY2HLM2VBw48kDwyJh-d2E?usp=sharing
+There are separate folders for training and testing images
+
+Download the custom dataset into the Experimental_Datasets folder using the link: https://drive.google.com/drive/folders/1D0LeHkbc7hLLeijwjFYwn72ZMleeswoJ?usp=sharing
+For the custom dataset only one folder is necessary (it has training and testing images along with their labels)
 
 RUNNING:
 
