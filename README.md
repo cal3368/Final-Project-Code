@@ -5,9 +5,9 @@
 
 REQUIREMENTS:
 
-The current configuration of the makeFile requires GPU, OPENCV.
+The current configuration of the makeFile requires GPU and OPENCV.
 Can be changed to run on CPU but would take a long time.
-To change set:
+To change, in Makefile set:
   GPU=1 to 0
   CUDNN=1 to 0
   CUDNN_HALF=1 to 0
